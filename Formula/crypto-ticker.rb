@@ -2,25 +2,25 @@ class CryptoTicker < Formula
   desc "Terminal-based crypto futures/spot price ticker supporting Binance and Gate.io"
   homepage "https://github.com/byteoxo/crypto-ticker"
   license "MIT"
-  version "1.3.0"
+  version "1.3.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/byteoxo/crypto-ticker/releases/download/v1.3.0/crypto-ticker_darwin_arm64.tar.gz"
-      sha256 "9795679862284d49db97868621cca66659c1be4dc04301bca48a78021a02e55c"
+      url "https://github.com/byteoxo/crypto-ticker/releases/download/v1.3.1/crypto-ticker_darwin_arm64.tar.gz"
+      sha256 "439d0bdb26a966ae1bd9eb55d995272b75ac3395a5cbe554dbd8a253589e73cb"
     else
-      url "https://github.com/byteoxo/crypto-ticker/releases/download/v1.3.0/crypto-ticker_darwin_amd64.tar.gz"
-      sha256 "9ccaa8b7c5784e64740b32d05b94292dc7c2c171bfda69e557f11302e176087d"
+      url "https://github.com/byteoxo/crypto-ticker/releases/download/v1.3.1/crypto-ticker_darwin_amd64.tar.gz"
+      sha256 "e4f88f47e75e8ccb576d5d033c2cd5f370f9f0dc2eecc11620461279c4426eb6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/byteoxo/crypto-ticker/releases/download/v1.3.0/crypto-ticker_linux_arm64.tar.gz"
-      sha256 "ca4ddf06823b0a63f4b550d664a08435e63e1fe07f40cc27a37a6e0ff5ae1a00"
+      url "https://github.com/byteoxo/crypto-ticker/releases/download/v1.3.1/crypto-ticker_linux_arm64.tar.gz"
+      sha256 "450e3987da6884c988009ebf21e0bee145880c5ac9d02b53480c31b2971ae9b3"
     else
-      url "https://github.com/byteoxo/crypto-ticker/releases/download/v1.3.0/crypto-ticker_linux_amd64.tar.gz"
-      sha256 "cbc9688ff38cf317076402ad31045f280bd458228ed3f7044fb5f090305e11b6"
+      url "https://github.com/byteoxo/crypto-ticker/releases/download/v1.3.1/crypto-ticker_linux_amd64.tar.gz"
+      sha256 "ede0bbec3f9bcfdc4e7a87ae2c9e152df7a23f74dcbc477f9b30f991e41150bb"
     end
   end
 
